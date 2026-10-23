@@ -12,7 +12,7 @@
 
     <style>
 
-       .page{
+       .page_top{
         width: 1920px;
         height: 2160px;
         background-color: rgb(255, 255, 255);
@@ -46,41 +46,72 @@
         float: right;
        }
 
-       .city_scape{
-        width: 1920px;
-        height: 238px;
-        background-color: rgb(36, 36, 36);
+       .text_box{
+        width: 350px;
+        height: 279px;
+        background-color: rgb(35, 35, 35);
+        margin-left: 105px;
+        margin-top: 645px;
        }
 
-       .bottom{
+       .text_box_top{
+        width: 350px;
+        height: 236px;
+        background-color: rgb(80, 80, 80);
+       }
+
+       .text_box_bottom{
+        width: 350px;
+        height: 43px;
+        background-color: rgb(35, 35, 35);
+       }
+
+       .bottom_type{
         width: 1920px;
-        height: 840px;
+        height: 238px;
         background-color: rgb(218, 218, 218);
+
+       }
+
+       .bottom_page{
+        width: 1920px;
+        height: 842px;
+        background-color: rgb(155, 155, 155);
         display: flex;
         justify-content: space-around;
+       }
+
+       .city_scape{
+        width: 1920px;
+        height: 339px;
+        background-color: rgb(65, 65, 65);
+        position: absolute;
        }
 
        .collums{
         width: 317px;
         height: 583px;
         background-color: rgb(100, 100, 100);
-        float: down;
-        display: flex;
-        flex-direction: column;
+        margin-top: 239px;
+        z-index: 2;
        }
 
-       .collum_top{
+        .collums_top{
         width: 317px;
         height: 212px;
-        background-color: rgb(50, 50, 50);
-        float: top;
+        background-color: rgb(37, 37, 37);
        }
 
-       .collum_bottom{
+        .collums_middle{
+        width: 317px;
+        height: 250px;
+        background-color: rgb(80, 80, 80);
+       }
+
+        .collums_bottom{
         width: 317px;
         height: 119px;
-        background-color: rgb(25, 25, 25);
-        float: bottom;
+        background-color: rgb(37, 37, 37);
        }
     </style>
 
@@ -88,52 +119,73 @@
 
 <body>
 
-    <div class="page">
+    <div class="page_top">
 
         <div class="hero">
 
             <div class="top_bar">
 
-                <div class="bar_left">
+                <div class="bar_left"></div>
 
-                </div>
-
-                <div class="bar_right">
-
-                </div>
+                <div class="bar_right"></div>
 
             </div>
 
+            <div class="text_box">
+
+                <div class="text_box_top"></div>
+
+                <div class="text_box_bottom"></div>
+
+            </div>
         </div>
 
-        <div class="city_scape"></div>
+        <div class="bottom_type"></div>
 
-        <div class="bottom">
+        <div class="bottom_page">
+
+            <div class="city_scape"></div>
 
             <div class="collums">
 
-                <div class="collum_top"></div>
-                
-                <div class="collum_bottom"></div>
+                <div class="collums_top"></div>
+
+                <div class="collums_middle"></div>
+
+                <div class="collums_bottom"></div> 
 
             </div>
 
             <div class="collums">
 
-                <div class="collum_top"></div>
+                <div class="collums_top"></div>
 
-                <div class="collum_bottom"></div>
+                <div class="collums_middle"></div>
+
+                <div class="collums_bottom"></div> 
 
             </div>
 
             <div class="collums">
 
-                <div class="collum_top"></div>
+                <div class="collums_top"></div>
 
-                <div class="collum_bottom"></div>
+                <div class="collums_middle"></div>
+
+                <div class="collums_bottom"></div> 
 
             </div>
-        
+
+            <div class="collums">
+
+                <div class="collums_top"></div>
+
+                <div class="collums_middle"></div>
+
+                <div class="collums_bottom"></div> 
+
+            </div>
+
         </div>
 
     </div>
